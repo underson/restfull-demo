@@ -1,0 +1,6 @@
+--liquibase formatted sql
+
+--changeset andersons:1
+
+INSERT INTO user
+VALUES ("admin", "admin");
